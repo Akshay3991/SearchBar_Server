@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 // Load environment variables from .env file
 dotenv.config();
 
-const hostname = "127.0.0.1";
+const hostname = "0.0.0.0";
 const port = 3000;
 
 const server = createServer(async (req, res) => {
